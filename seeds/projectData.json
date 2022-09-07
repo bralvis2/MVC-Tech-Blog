@@ -1,0 +1,14 @@
+[
+    {
+      "title": "What is a Data Structure?",
+      "description": "It is a storage format."
+    },
+    {
+      "title": "What is an array?",
+      "description": "Collection of items"
+    },
+    {
+      "title": "What are the data types?",
+      "description": "String, Number, Boolean, Undefined, Null"
+    }
+  ]
