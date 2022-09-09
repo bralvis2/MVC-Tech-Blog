@@ -18,9 +18,33 @@ body {
     background-color: var(--cream);
 }
 
+/* navbar styling */
 nav {
     background-color: var(--blue3);
     margin: 0;
+    display: flex;
+    flex-direction: row;
+}
+
+.contents {
+    width: 85%;
+    text-align: right;
+    margin: auto;
+}
+
+.links {
+    margin-left: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.5em;
+    text-decoration: none;
+    color: var(--cream);
+}
+
+#logout {
+    background-color: var(--cream);
+    color: var(--lavender);
+    border-radius: 30px;
+    width: 100px;
 }
 
 /* Dashboard Styling */
@@ -30,5 +54,14 @@ nav {
     flex-direction: column;
     margin: auto;
     margin-top: 10px;
+    border-color: var(--lavender);
+    box-sizing: 4px;
+    border-style: solid;
 }
 
+.blogHeader {
+    background-color: var(--lavender);
+    color: var(--cream);
+}
+
+/* form styling  */

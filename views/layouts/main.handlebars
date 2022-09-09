@@ -5,7 +5,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title> MVC Tech Blog </title>
-  {{!-- <link rel="stylesheet" href="/css/jass.css"> --}}
+  {{!--
+  <link rel="stylesheet" href="/css/jass.css"> --}}
   <link rel="stylesheet" href="/css/style.css">
 </head>
 
@@ -14,16 +15,21 @@
     <header class="display-flex justify-space-between align-center p-2">
       <nav>
         <a href="/">
-        <img src="/images/logo.png" width="150px">
+          <img src="/images/logo.png" width="150px">
         </a>
-        <a href="/"> Dashboard </a>
-        <!-- Conditionally render login or logout links -->
-        {{#if logged_in}}
-        <a href="/profile">profile</a>
-        <button class="no-button" id="logout">logout</button>
-        {{else}}
-        <a href="/login">login</a>
-        {{/if}}
+
+        <div class="contents">
+          <a class="links" href="/"> Dashboard </a>
+
+          <!-- Conditionally render login or logout links -->
+          {{#if logged_in}}
+          <a class="links" href="/profile">profile</a>
+
+          <button class="no-button links" id="logout">logout</button>
+          {{else}}
+          <a class="links" href="/login">login</a>
+          {{/if}}
+        </div>
       </nav>
     </header>
     <main class="container container-fluid mt-5">
