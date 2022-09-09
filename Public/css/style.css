@@ -65,3 +65,10 @@ nav {
 }
 
 /* form styling  */
+.formContent {
+    text-align: center;
+}
+
+.signup {
+    margin-top: 5%;
+}
