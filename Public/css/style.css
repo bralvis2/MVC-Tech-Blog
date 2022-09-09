@@ -72,3 +72,15 @@ nav {
 .signup {
     margin-top: 5%;
 }
+
+/* Profile styling */
+.welcome {
+    text-align: center;
+}
+
+.postbtn {
+    background-color: var(--blue3);
+    color: var(--cream);
+    border-radius: 30px;
+    width: 100px;
+}

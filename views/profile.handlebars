@@ -1,25 +1,25 @@
-<div class="row">
+<div class="row welcome">
   <div class="col-auto">
     <h2>Welcome, {{name}}!</h2>
   </div>
 </div>
 
-<div class="row mt-4">
+<div class="row mt-4 formContent">
   <div class="col-md-6">
     <h3>Create a New Blog Post:</h3>
 
     <form class="form new-project-form">
       <div class="form-group">
-        <label for="project-name">Title:</label>
-        <input class="form-input" type="text" id="project-name" name="project-name" />
+        <label for="project-title">Title:</label>
+        <input class="form-input" type="text" id="project-title" name="project-title" placeholder="Text" />
       </div>
      
       <div class="form-group">
         <label for="project-desc">Description:</label>
-        <textarea class="form-input" id="project-desc" name="project-desc"></textarea>
+        <textarea class="form-input" id="project-desc" name="project-desc" placeholder="Text"></textarea>
       </div>
       <div class="form-group">
-        <button type="submit" class="btn btn-primary">Post</button>
+        <button type="submit" class="btn btn-primary postbtn">Post</button>
       </div>
     </form>
   </div>
